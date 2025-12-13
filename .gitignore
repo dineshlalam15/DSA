@@ -1,0 +1,12 @@
+cat << EOF > .gitignore
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# OS
+.DS_Store
+
+# Java
+*.class
+EOF
