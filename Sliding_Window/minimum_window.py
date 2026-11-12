@@ -9,6 +9,8 @@ BRUTE FORCE:
 OPTIMAL WAY: 
 1. Two Pointers [left, right].
 2. Sliding Window. 
+3. When condition matched, chunk from the left side until the condition fails 
+    so that you can have the minimum substring that is satisfying the condition. 
 """
 
 class Solution(object):
